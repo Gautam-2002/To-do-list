@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(252, 255, 205);
+}
+h1 {
+  font-size: 2.5rem;
+  color: blue;
+}
+#inp {
+  padding: 15px;
+  transition: 0.2s;
+  outline: none;
+}
+#inp:focus {
+  border: 1px solid aqua;
+}
+#btn {
+  background-color: white;
+  padding: 14px;
+  border: 1px solid black;
+}
