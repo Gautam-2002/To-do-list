@@ -9,6 +9,7 @@ function swap(a, b) {
 }
 
 btn.addEventListener("click", () => {
+  if(inp.value === "")return;
   const li = document.createElement("li");
 
   const para = document.createElement("p");
